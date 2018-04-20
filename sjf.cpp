@@ -7,7 +7,7 @@ int i,n,j,min,line[10],line1[10],p[10]={1,2,3,4,5,6,7,8,9,10};
 int B_T[1000],A_V_T[1000],W_T[1000],temp,T_A_T[10];
 int bt=0,ta=0,sum=0,k=1;
 float AVR_W_T=0,AVR_T_A_T=0,T_A_T_SUM=0,W_T_SUM=0;
-printf("Enter the Number of processes : ");
+printf("Enter the Number of processes for shortest job first(NP)-: ");
 scanf("%d",&n);
     for(i=0;i<n;i++)
     {
